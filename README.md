@@ -291,33 +291,7 @@ http://localhost:5173
 
 ---
 
-# 📸 Vista previa
 
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 🎉 Página principal
-![Home](https://dummyimage.com/1200x600/E91E63/ffffff&text=Event+Rental+Home)
-
-### 📅 Reservaciones
-![Bookings](https://dummyimage.com/1200x600/C2185B/ffffff&text=Bookings+System)
-
-### 🪑 Catálogo de servicios
-![Catalog](https://dummyimage.com/1200x600/AD1457/ffffff&text=Rental+Catalog)
-
-### 👥 Gestión de clientes
-![Customers](https://dummyimage.com/1200x600/880E4F/ffffff&text=Customer+Management)
-
-### 📊 Dashboard administrativo
-![Dashboard](https://dummyimage.com/1200x600/6A1B9A/ffffff&text=Admin+Dashboard)
-
-### 📱 Diseño responsive
-![Responsive](https://dummyimage.com/1200x600/8E24AA/ffffff&text=Responsive+Design)
-
-</div>
-
----
 
 # 🧠 Objetivos del proyecto
 
