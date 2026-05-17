@@ -188,7 +188,7 @@ Este módulo es utilizado por clientes que desean reservar servicios.
 # 📂 Estructura del proyecto
 
 ```bash
-event-rental-platform/
+PlataformaEventosSociales/
 │
 ├── public/                   # Recursos públicos
 ├── src/
@@ -225,7 +225,7 @@ event-rental-platform/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/event-rental-platform.git
+git clone https://github.com/isairey/PlataformaEventosSociales.git
 ```
 
 ---
@@ -233,7 +233,7 @@ git clone https://github.com/isairey/event-rental-platform.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd event-rental-platform
+cd PlataformaEventosSociales
 ```
 
 ---
