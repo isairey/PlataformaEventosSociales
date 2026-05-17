@@ -1,0 +1,34 @@
+.first {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.first h1 {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hallName {
+  position: relative;
+}
+
+.hallName::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #000; /* Adjust the color of the underline */
+  transition: width 0.3s ease; /* Add transition effect */
+}
+
+.hallName:hover::after {
+  width: 100%;
+}
+
+.HallImages-Wrapper {
+  text-align: center;
+}

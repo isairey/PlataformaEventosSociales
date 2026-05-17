@@ -1,0 +1,133 @@
+.hero-wrapper {
+  background-image: url(images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 100px;
+}
+
+.hero-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.hero-left {
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  color: #ffffe4;
+  padding-left: 10rem;
+  gap: 30px;
+}
+
+.hero-head2 {
+  padding-bottom: 200px;
+}
+
+.hero-head2 h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.hero-content h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+/* 
+.check-button {
+  
+  background: black;
+  color: white;
+  margin-top: 25px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  margin-left: 45px;
+  border: none;
+}
+
+.check-button:hover {
+  transform: scale(1.05);
+  color: white;
+  background: #846330;
+  
+}
+
+.hero-right {
+  width: 380px;
+  height: 470px;
+  margin-left: 400px;
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-right h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.hero-rightcontainer {
+  padding-left: 30px;
+}
+
+.event-comboBox {
+  color: gray;
+  margin: 5px 0px;
+  width: 310px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: grey;
+  background: #faf9f6;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+
+.inputfield {
+  margin: 5px 0px;
+  width: 305px;
+  height: 40px;
+  border-radius: 5px;
+  height: 25px;
+  background: #faf9f6;
+  
+  border: none;
+}
+
+.calendar-icondiv {
+  display: flex;
+}
+
+.small-datepicker {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.calendar-icon {
+  padding-top: 2px;
+  padding-left: 5px;
+}
+
+.custom-datepicker {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  margin: 5px 0px;
+  width: 305px;
+  border-radius: 5px;
+  height: 40px;
+  
+  height: 25px;
+  background: #faf9f6;
+  border: none;
+} */

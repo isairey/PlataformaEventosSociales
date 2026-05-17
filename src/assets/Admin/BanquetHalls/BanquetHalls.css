@@ -1,0 +1,138 @@
+.container-halls {
+  display: flex;
+}
+.addHall {
+  align-items: center;
+  display: flex;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.popup-halls,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.demo {
+  height: 50vh;
+  width: 25vw;
+  background: white;
+  border-radius: 10px;
+}
+
+.closebtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+/* .demo {
+  width: 20vw;
+  height: 20vh;
+  background: white;
+} */
+
+.popup-title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.popup-inputs {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.popup-inputs h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.inputs {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.capacity-inputs {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+  width: 85px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 40px;
+}
+
+.capacity-field h3 {
+  font-size: 16px;
+}
+
+.capacity-field {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: gray;
+}
+
+.uploadbtn {
+  margin-top: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.uploadbtn:hover {
+  color: lightblue;
+}
+
+.dataaddbtn {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  background: #59aa53;
+  color: white;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.halldeletebtn {
+  cursor: pointer;
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

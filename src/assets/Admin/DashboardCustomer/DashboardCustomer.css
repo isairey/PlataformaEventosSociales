@@ -1,0 +1,37 @@
+.dashboardbody {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  color: black;
+}
+
+.dbtables {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.linkbtn {
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.linkbtn:hover,
+.linkbtn.active {
+  text-decoration: underline;
+  color: #846330;
+}
+
+.tabs {
+  margin-top: 20px;
+  margin-left: 35px;
+  width: 70vw;
+}
+
+.tabs {
+  display: flex;
+}

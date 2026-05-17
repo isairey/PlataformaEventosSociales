@@ -1,0 +1,198 @@
+.panel-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vh;
+
+  /* background: white; */
+  height: 100vh;
+}
+
+.logopanel {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.Dashboard-items {
+  margin-top: 50px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px 0px;
+  border: none;
+  background: white;
+  font-size: 20px;
+
+  cursor: pointer;
+  color: gray;
+}
+
+.dashboard-body {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: white; */
+  color: black;
+}
+
+.dashboard-contents {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+
+  /* border: 1px solid #ddd; */
+  text-align: left;
+}
+
+.table th {
+  background-color: #846330;
+  font-weight: 400;
+  color: white;
+}
+
+.acceptbtn {
+  background-color: #33b249;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.declinebtn {
+  background-color: red;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.boxes {
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #846330;
+  margin-left: 40px;
+  border: 1px black solid;
+  margin-top: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box-content img {
+  width: 450px;
+}
+
+.box-content {
+  overflow: hidden;
+}
+
+.summaryboxes {
+  display: flex;
+}
+
+/* .boxes-small {
+  height: 220px;
+  width: 220px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+} */
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.refreshbtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.deletebtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.addbtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.yesbtn {
+  margin-top: 10px;
+  border: none;
+  background: #33b249;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nobtn {
+  margin-top: 10px;
+  border: none;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

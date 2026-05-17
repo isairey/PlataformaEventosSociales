@@ -1,0 +1,20 @@
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pricearea {
+  background: #192231;
+  width: 17vh;
+  padding: 10px;
+}
+
+.pricearea h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}

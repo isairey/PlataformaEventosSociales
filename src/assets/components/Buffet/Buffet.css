@@ -1,0 +1,85 @@
+.buffet-wrapper {
+  display: flex;
+}
+.buffet-container {
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+.backbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding-left: 60px;
+  margin-top: 40px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.backbtn:hover {
+  color: #846330;
+}
+
+.buffetimages {
+  height: 200px;
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.buffet-des h1 {
+  color: #846330;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.select {
+  margin-right: 10px;
+  margin-top: 25px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #337636;
+  border-radius: 5px;
+  background-color: #337636;
+  color: #fff;
+  cursor: pointer;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.select:hover {
+  background-color: #6fc754;
+  border: 2px solid #6fc754;
+  transform: translateY(-2px);
+}
+
+.secondarybtn {
+  margin-right: 10px;
+  margin-top: 25px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #846330;
+  border-radius: 5px;
+  background-color: white;
+  color: #846330;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.secondarybtn:hover {
+  background-color: #846330;
+  border: 2px solid #846330;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.buffetcontents {
+  display: flex;
+}

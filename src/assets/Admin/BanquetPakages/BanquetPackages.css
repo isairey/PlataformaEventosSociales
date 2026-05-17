@@ -1,0 +1,11 @@
+.menu-wrapper {
+  display: flex;
+}
+
+.menuleft-side {
+  width: 50vh;
+}
+
+.menuright-side {
+  width: 58.11vw;
+}

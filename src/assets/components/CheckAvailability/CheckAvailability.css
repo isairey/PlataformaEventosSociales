@@ -1,0 +1,147 @@
+.check-container {
+  margin-top: 50px;
+  display: flex;
+  padding-bottom: 100px;
+}
+.left-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.check-content {
+  margin-top: 70px;
+  width: 50%;
+}
+
+.check-content h1 {
+  color: #846330;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.check-content span {
+  font-size: 18px;
+}
+.check-rightcontainer {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+}
+
+.check-button {
+  background: #337636;
+  color: white;
+  margin-top: 25px;
+  padding: 10px 40px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  margin-left: 15px;
+  border: none;
+}
+
+.check-button:hover {
+  background-color: #6fc754;
+  border-color: #6fc754;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.event-comboBox {
+  color: gray;
+  margin: 5px 0px;
+  width: 310px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: grey;
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputfield {
+  font-family: "Poppins", sans-serif;
+  margin: 5px 0px;
+  width: 300px;
+  padding: 4px;
+  height: 40px;
+  border-radius: 4px;
+  height: 25px;
+  background: white;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.calendar-icondiv {
+  display: flex;
+}
+
+.small-datepicker {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.calendar-icon {
+  padding-top: 2px;
+  padding-left: 5px;
+}
+
+.custom-datepicker {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: gray;
+  margin: 5px 0px;
+  width: 300px;
+  border-radius: 5px;
+  height: 25px;
+  padding: 4px;
+  background: white;
+  border: 1px solid black;
+}
+
+.check-rightcontainer {
+  margin-left: 500px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* White color with some transparency */
+  padding: 40px 70px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px); /* Apply blur effect */
+}
+
+/* Add hover effect */
+.check-rightcontainer:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.check-rightcontainer input {
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  /* padding: 10px; */
+}
+
+.check-rightcontainer button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  /* padding: 10px 20px; */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.check-rightcontainer button:hover {
+  background-color: #0056b3;
+}
+
+.check-rightcontainer > * {
+  margin-bottom: 10px;
+}

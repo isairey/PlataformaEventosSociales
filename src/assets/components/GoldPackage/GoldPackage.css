@@ -1,0 +1,27 @@
+.goldpackage-wrapper {
+  margin-top: 80px;
+  margin-left: 300px;
+  /* border: 1px #846330 solid; */
+  padding: 100px;
+  padding-right: 200px;
+  background-color: white;
+}
+
+.goldpackage-wrapper h1 {
+  color: #846330;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.goldpackage-wrapper p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.allitemsbtn {
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}

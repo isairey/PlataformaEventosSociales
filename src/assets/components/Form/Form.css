@@ -1,0 +1,103 @@
+/* .form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.shifts {
+  display: flex;
+}
+
+.form-contents h1 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.input-form {
+  width: 300px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.head-line {
+  margin-top: 20px;
+  background: #f9e4bc;
+  height: 100px;
+  width: 100vw;
+  z-index: 1;
+}
+
+.datepicker-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.datepicker-container h2 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.custom-datepicker {
+  width: 300px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.calendar-icon {
+  margin-left: 2px;
+  margin-top: 14px;
+  font-size: 20px;
+}
+
+.datepicker-content {
+  display: flex;
+  align-items: center;
+}
+
+.date-con {
+  display: flex;
+}
+
+.event-type {
+  padding-left: 30px;
+}
+.event-type h1 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.event-comboBox {
+  width: 300px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  color: gray;
+}
+
+.available {
+  margin-top: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.available:hover {
+  background-color: #846330;
+  transform: translateY(-2px);
+} */

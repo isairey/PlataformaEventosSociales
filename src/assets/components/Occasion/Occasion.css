@@ -1,0 +1,67 @@
+.occasion-container {
+  display: flex;
+  justify-content: center;
+
+  height: 70vh;
+  width: 100vw;
+}
+.occasion-left {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+
+.occasion-left img {
+  height: 60vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.occasion-right {
+  width: 30%;
+}
+
+.occasion-right h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.occasion-right h3 {
+  padding-top: 20px;
+  font-weight: 500;
+}
+.occasion-right p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.book-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.book-btn:hover {
+  background-color: #846330;
+  border-color: #846330;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.bottom img {
+  padding-left: 10px;
+  height: 100px;
+}

@@ -1,0 +1,74 @@
+.checkout-container {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.backbtnchekout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding-left: 60px;
+  margin-top: 50px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.backbtnchekout:hover {
+  color: #846330;
+}
+
+.checkoutbtn {
+  margin-top: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background-color: #337636;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.checkoutbtn:hover {
+  background-color: #6fc754;
+  transform: translateY(-2px);
+}
+
+.personalinfoForm input {
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px 0px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.personalinfoForm h3 {
+  font-weight: 400;
+  color: #846330;
+  font-size: 20px;
+  /* margin-bottom: px; */
+  margin-top: 10px;
+}
+
+.personalinfo {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 100px;
+  /* border: 1px solid gray; */
+}
+
+.eventinfo {
+  margin-left: 100px;
+}
+
+.eventinfo {
+  font-size: 20px;
+}
